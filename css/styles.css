@@ -103,7 +103,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
 	color: #2d2d2d;
 }
 
@@ -157,10 +158,8 @@ p {
 	line-height: 1.5;
 	text-align: center;
   letter-spacing: 1px;
-  color: #2d2d2d;
   max-width: 700px;
   margin: auto;
-  padding-bottom: 5%;
 }
 
 ::-moz-selection {
@@ -380,10 +379,7 @@ text-align: center;
 }
 .secondary-btn {
   display: inline-block;
-  background: transparent;
-	border-style: solid;
-  border-color: #cdb98e;
-	border-width: thin;
+  background-color: #cdb98e;
 }
 /* ===== ICON BOXES ===== */
 
@@ -408,7 +404,7 @@ text-align: center;
 .icon-box {
 	display: inline-block;
 	vertical-align: middle;
-  height: 325px;
+  height: 275px;
   width: 300px;
   padding: 10px;
   position: relative;
@@ -563,10 +559,10 @@ hr {
 }
 
 .pricing-hero {
-	background-image: url(../images/denver-newborn-photography001.jpg);
+	background-image: url(../images/pricing.jpg);
   position: relative;
   height: 550px;
-  background-position: center;
+  background-position: bottom;
 }
 
 .about-hero {
@@ -590,6 +586,7 @@ hr {
   text-align: left;
   margin: 0;
   color: white;
+  margin: 10px 0 25px 0;
 }
 
 .social-btn p{
@@ -597,16 +594,24 @@ hr {
   text-align: center;
   font-style: italic;
   letter-spacing: 3px;
+  margin: 0;
 }
 
 /* =================
 ===== SERVICES =====
 ================= */
-.services{
-  padding: 5%;
+.services, .portraits{
+  padding:50px 0 75px 0;
+}
+.portraits p{
+  padding-bottom: 50px;
+  margin: auto;
+}
+.gallery{
+  padding:0 100px 75px 100px;
 }
 .pricing{
-  padding: 3%;
+  padding: 50px 0 0 0;
 }
 .containerBox {
     position: relative;
@@ -740,8 +745,9 @@ hr {
      }
 
      .mountain-hero3{
-        background-image: url(../images/colorado-family-photographer002.jpg);
+        background-image: url(../images/colorado-family-photographer003.jpg);
         height: 800px;
+        background-position: bottom;
     }
     /*========================
     ===== FAMILY-HERO =====
@@ -772,10 +778,10 @@ hr {
       ===== ABOUT-HERO =====
       ========================*/
       .about-hero2{
-         background-image: url(../images/loraandted-about002.jpg);
-         height: 800px;
+         background-image: url(../images/loraandted-about001.jpg);
+         background-position: center;
+         height: 750px;
        }
-       /* CONTACT */
 
        .contact {
          max-width: 700px;
@@ -891,27 +897,18 @@ hr {
 /*========================
 ===== CALL TO ACTION =====
 ========================*/
-.call-to-action {
-   display: inline-block;
-   width: 100%;
-}
-.call-to-action .wrapper {
-	position: relative;
-	max-width: 1200px;
-	margin: auto;
-	padding: 40px 25px 40px 25px;
-	font-size: 0px;
+.call-to-action{
+padding-top: 50px;
 }
 .call-to-action h5{
-	color: #cdb98e;
+	color: #FFF;
 }
 /*================
 ===== FOOTER =====
 ================*/
 footer {
 	position: relative;
-	padding: 60px;
-	padding-top: 75px;
+	padding: 50px;
 }
 footer img{
 	margin: 25px 15px 0 15px ;
