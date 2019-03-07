@@ -38,13 +38,11 @@ and (orientation : portrait) {
 /*==============================
 ===== ANCHOR AND BOLD TEXT =====
 ==============================*/
-
 a {
   color: #505050;
 	text-decoration: none;
 	display: inline-block;
 }
-
 /*=======================
 ===== BROWSER FIXES =====
 =======================*/
